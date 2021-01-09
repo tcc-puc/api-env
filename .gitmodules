@@ -1,0 +1,9 @@
+[submodule "api-territorial"]
+	path = api-territorial
+	url = https://github.com/tcc-puc/api-territorial.git
+[submodule "api-saude"]
+	path = api-saude
+	url = https://github.com/tcc-puc/api-saude.git
+[submodule "api-transparencia"]
+	path = api-transparencia
+	url = https://github.com/tcc-puc/api-transparencia.git
