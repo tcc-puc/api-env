@@ -30,3 +30,8 @@ services:
     command: --config.file=/etc/prometheus/prometheus.yaml
     volumes:
       - ./prometheus.yaml:/etc/prometheus/prometheus.yaml
+  redis:
+    image: redis
+    command: redis-server
+    ports:
+      - "6379:6379"
